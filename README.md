@@ -1,4 +1,4 @@
-Edit links.
+=Edit links=
 A MediaWiki extension created by Alex Olieman and Roel Obdam.
 
 Current version: 0.3.2
