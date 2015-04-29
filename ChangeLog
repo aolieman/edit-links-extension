@@ -1,0 +1,26 @@
+2009-30-07 Alex Olieman <alex.olieman@gmail.com>
+	* Corrected incorrect spelling of $divider
+
+2009-29-07 Alex Olieman <alex.olieman@gmail.com>
+	* Rewritten to Edit Links extension.
+	* Removed import capabilities in favor of interwiki transclusion.
+
+2009-29-05  Alex Olieman <alex.olieman@gmail.com>
+	* RecursivePageImport.body.php (ImportWizardPage::saveLinksForm): New function
+	* Page 3 now saves the edits that are performed on the links in page 2.
+
+2009-27-04  Roel Obdam
+	* RecursivePageImport.body.php (ImportWizardPage::showLinksForm): New function, rewritten from showSectionsForm.
+
+2009-26-04  Alex Olieman <alex.olieman@gmail.com>
+	* Rewritten to RecursivePageImport
+	* RecursivePageImport.body.php (ImportWizardPage::getLocalArticle): New function.
+
+2008-07-03  Raymond Jelierse  <eagletitan@gmail.com>
+	* ImportWizard.i18n.php: Updated message file.
+	* ImportWizard.body.php (ImportWizardPage::getArticleBody): New function.
+	* ImportWizard.body.php (ImportWizardPage::showSectionForm): Replaced default fetch with getArticleBody.
+	* ImportWizard.body.php (ImportWizardPage::showImportForm): Added redirect option.
+
+2008-06-24  Raymond Jelierse  <eagletitan@gmail.com>
+	* ImportWizard.{body.php,css,i18n.php,js,php}: New files.
